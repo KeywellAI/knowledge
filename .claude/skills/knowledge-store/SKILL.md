@@ -58,6 +58,8 @@ Use this routing table (from the repo's README) to pick the right folder:
 | How we talk about Keywell to customers | `go-to-market/messaging/` |
 | Notes on a specific customer or prospect | `go-to-market/customers/` |
 | Email templates, pitch notes, outreach scripts | `go-to-market/templates/` |
+| General conference info (new conference, typical costs, CFP patterns) | `go-to-market/conferences/index.md` |
+| Specific confirmed dates for a conference in a given year | `go-to-market/conferences/YYYY.md` |
 | New hire guides | `operations/onboarding/` |
 | Recurring processes (planning, retros, reviews) | `operations/processes/` |
 | HR, security, company policies | `operations/policies/` |
@@ -229,6 +231,30 @@ Owner: Data
 
 **Context:** [Why this term matters for Keywell]
 ```
+
+### Conference Entry
+
+Conference information always requires **two writes** — one to the general index and one to the annual page. Never write to only one.
+
+**When adding a new conference to the roster** (not yet in the index):
+1. Add a row to the table in `go-to-market/conferences/index.md` with typical month, cost range, CFP timing
+2. Add a row to `go-to-market/conferences/YYYY.md` (current or specified year) with any confirmed specific dates
+
+**When adding specific dates for an existing conference:**
+1. Update `go-to-market/conferences/YYYY.md` — fill in confirmed dates, location, registration deadline, CFP deadline, attending status
+2. If the general info in `index.md` is stale or wrong (e.g., typical month has shifted), update that too
+
+**Annual page row format:**
+```markdown
+| [Conference Name] | [Confirmed dates or "TBD (typically [Month])"] | [City, State] | [Date or TBD] | [Date or TBD] | [Yes / No / TBD] | [Any notes] |
+```
+
+**Index table row format:**
+```markdown
+| [Conference Name] | [National/Regional] | [Month] | [Typical City, State] | [$X–$Y] | [~Month (prior yr) or Varies] | [$X exhibit; $Y–$Z sponsorship] |
+```
+
+**Create a new annual page** if `go-to-market/conferences/YYYY.md` doesn't exist yet — copy the header and table structure from an existing year file.
 
 ### Customer Note
 ```markdown
