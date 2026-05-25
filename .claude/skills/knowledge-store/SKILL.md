@@ -13,9 +13,10 @@ Adds or updates content in the [KeywellAI/knowledge](https://github.com/KeywellA
 
 1. **Understand** what the user wants to document
 2. **Determine placement** — pick the right folder/file based on content type
-3. **Draft the doc** in Keywell's markdown conventions
-4. **Confirm with user** (brief) before committing
-5. **Commit and push** to a branch, or directly to `main` for minor additions
+3. **Check for conflicts** — scan existing docs for contradictory or duplicate information
+4. **Draft the doc** in Keywell's markdown conventions
+5. **Confirm with user** (brief) before committing
+6. **Commit and push** to a branch, or directly to `main` for minor additions
 
 ---
 
@@ -71,7 +72,56 @@ Use this routing table (from the repo's README) to pick the right folder:
 
 ---
 
-## Step 3 — Draft the Doc
+## Step 3 — Check for Conflicts
+
+Before drafting, search the cloned repo for any existing content that touches the same topic. The goal is to catch contradictions — cases where you're about to write something that disagrees with what's already there.
+
+**Search for related content:**
+
+```bash
+# Search by key terms from the new content
+grep -r "[key term]" /tmp/knowledge --include="*.md" -l
+
+# Read any files that look relevant
+cat /tmp/knowledge/[matching-file.md]
+```
+
+Cast a reasonably wide net — if you're adding information about brand colors, search for "color", "brand", "palette", "hex", etc. across the whole repo, not just the obvious folder.
+
+**Conflict types and how to handle each:**
+
+| Situation | What to do |
+|---|---|
+| New info supersedes old (old is stale) | Update or replace the old content in the same commit; don't leave contradictory versions in the repo |
+| Genuine ambiguity (both could be true in different contexts) | Clarify scope in both places — e.g., "legacy brand" vs. "current brand", "v1 pricing" vs. "v2 pricing" |
+| Near-duplicate (same topic, slightly different wording) | Consolidate into one canonical entry; remove the weaker version |
+| Outright contradiction (one must be wrong) | Surface it to the user before writing anything |
+
+**When to stop and ask the user:**
+
+If you find a direct contradiction and you can't determine from context which version is current, pause and say:
+
+> "Before I save this, I found something that conflicts with what you've shared. [Quote or describe the existing note and where it lives.] Which is correct — the existing version, what you've just told me, or is there a distinction I'm missing?"
+
+Once you have clarity, proceed: update the old content, archive it, or add context that disambiguates. Never silently create a second version that contradicts the first.
+
+**Archiving stale content:**
+
+If the old information is clearly outdated rather than wrong, move it rather than delete it:
+
+```bash
+mkdir -p /tmp/knowledge/[folder]/archive
+mv /tmp/knowledge/[folder]/old-file.md /tmp/knowledge/[folder]/archive/old-file.md
+```
+
+Add a one-line note at the top of the archived file:
+```markdown
+> **Archived [YYYY-MM-DD]** — superseded by [link to new doc].
+```
+
+---
+
+## Step 4 — Draft the Doc
 
 Follow Keywell's markdown conventions:
 
@@ -206,7 +256,7 @@ Owner: [AE / CSM Name]
 
 ---
 
-## Step 4 — Confirm with User
+## Step 5 — Confirm with User
 
 Show the user what you're about to save — keep it simple and jargon-free:
 
@@ -218,7 +268,7 @@ For small additions (a glossary term, a quick customer note) you can skip ahead 
 
 ---
 
-## Step 5 — Save to the Knowledge Store
+## Step 6 — Save to the Knowledge Store
 
 This runs entirely behind the scenes. The user doesn't need to know any git commands — just do it and report back clearly when done.
 
