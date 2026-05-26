@@ -32,6 +32,7 @@ Cost ranges and CFP deadlines are approximate — verify each cycle before plann
 | MedTech Conference | National | October | Anaheim, CA | $1,500–$2,500 | Varies | Available |
 | Healthcare Innovation Summit | Regional | October | Houston, TX | ~$2,095 | — | Available |
 | Medicaid Managed Care Summit | National | October | Hollywood, FL | $1,495–$1,795 | — | Available |
+| UT REAL Health AI Symposium | Regional | October | Austin, TX | Low/free (UT System hosted) | — | Industry lightning talk slots |
 | TAHP Annual Conference | Regional | November | Houston, TX | ~$1,000 | — | Available |
 
 ---
@@ -79,6 +80,13 @@ Client-only event by invitation. Contact your J.P. Morgan representative to requ
 ### THIA Conference — September
 - Very low cost; good for local Houston/Texas health IT networking
 
+### UT REAL Health AI Symposium — October
+- Annual event hosted by the UT System (Dell Med at UT Austin), held at AT&T Executive Education and Conference Center, Austin
+- Day 1: Academic keynote, UT Health enterprise sessions, student research showcase
+- Day 2: Industry lightning talks — Microsoft, AWS, Palantir, Epic, Hippocratic AI have presented; Keywell should pursue a slot
+- Audience: UT System researchers, clinicians, educators, students, and industry leaders
+- Source: https://www.utsystem.edu/ai-symposium
+
 ---
 
 ## Annual Planning Guidance
@@ -98,4 +106,4 @@ Client-only event by invitation. Contact your J.P. Morgan representative to requ
 - Exhibitor entry point: ~$300–$5,000+
 
 **Texas regional circuit** — low cost, good for local pipeline:
-Houston Healthcare Conference, THIA, Nashville Healthcare Sessions, TAHP
+Houston Healthcare Conference, THIA, Nashville Healthcare Sessions, TAHP, UT REAL Health AI Symposium
