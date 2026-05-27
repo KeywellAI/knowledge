@@ -29,6 +29,24 @@ If the user has already explained what they want to document, extract:
 
 If the user is vague (e.g., "add this to the knowledge store"), ask one focused question: "What would you like to document?" Then proceed once you have enough to work with.
 
+**When the user provides a document URL:**
+
+First, determine whether they want to (a) just log the URL for future reference, or (b) fully fetch, parse, and integrate the content into the knowledge store. These are very different amounts of work — don't parse a whole document when the user just wants a breadcrumb.
+
+Read context clues:
+
+| Signal | Likely intent |
+|---|---|
+| "log this," "keep track of," "save the link," "for reference," "so we can find it" | Log only — save the URL with a brief description |
+| "add this," "transfer this," "document this," "put this in the knowledge store" (with no other content provided) | Ambiguous — confirm before fetching |
+| Pastes a URL alongside actual content or explains what's in it | Parse and integrate — they've done the work of telling you what matters |
+| "here is our [X], this will be used for [Y]" | Parse and integrate — they're pointing you at primary source material |
+
+If it's unclear after reading context, ask simply:
+> "Do you want me to save the link as a reference, or pull the content and document it fully?"
+
+When logging only: create a short file (or a section in a relevant existing file) with the URL, a one-line description of what it is, and when/how to use it. Don't fetch the document.
+
 ---
 
 ## Step 2 — Determine Placement
