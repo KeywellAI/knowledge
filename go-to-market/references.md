@@ -9,7 +9,7 @@ Contacts who can serve as references for Keywell projects — used in RFP respon
 
 ---
 
-| Name | Organization | Email | Phone | When to Use
+| Name | Organization | Email | Phone | When to Use |
 |---|---|---|---|
 | Paul Matsui | Digital Health Strategies | paul@digitalhealthstrategies.com | 240-328-5438 | Particularly relevant to Databricks scope as well as predictive analytics |
 | Allen Sheldon | KPMG | allensheldon@kpmg.com | (720) 840-1609 | Most public sector RFPs |
