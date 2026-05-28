@@ -30,3 +30,16 @@ For healthcare organizations who need to eliminate expensive, complex, manual pr
   3. Intelligent Appeals Document Processing and Monitoring Quickstart
   4. HCC Continuous Audit Defensibility Quickstart
 - **AI Sandbox** — Application for human testing and evaluation of AI workflows with real data prior to production
+
+---
+
+## Q: How is AI part of your solution?
+
+We are an AI enablement solution. Configured AI agents enter various points in the workflow, such as:
+
+1. **Population Health Analytics Quickstart** — AI agents translate user natural language queries into data analysis results, leveraging ontologies and our documented domain expertise
+2. **CMS-0057-F Prior Auth API Quickstart** — AI agents translate unstructured plan coverage and utilization management policies into API responses
+3. **HCC Audit Quickstart** — AI agents interpret clinical records and evaluate diagnosis code defensibility
+4. **Appeals Intelligent Document Processing** — AI parses documentation, translates it to structured data, and disambiguates routing
+
+"AI" — in the form of AI agents configured on our platform with guardrails — is one building block for workflow automation.
