@@ -59,3 +59,14 @@ Keywell is the only solution that delivers perpetual license ownership of the de
 **Non-Healthcare Enterprise AI (Claude/Anthropic, Salesforce Agentforce)** — Minimal healthcare-specific governance, auditability, or support for deterministic clinical workflows. Keywell offers model-agnostic architecture, zero-trust frameworks, and works complementary to these platforms.
 
 **Healthcare AI Hybrid Platforms (101GenAI, Boost Health AI)** — Varied infrastructure sophistication and limited Databricks-native integration. Keywell provides deeper platform integration, SSO, and customer environment isolation.
+
+---
+
+## Q: Why does AI trustworthiness matter to your customers and users?
+
+Healthcare is a high-impact, high-risk, highly-litigious industry. Trustworthiness is table stakes. The customers in our pipeline have made clear that trust is not a differentiator — it's a prerequisite. Specifically:
+
+1. **Protecting patient privacy (HIPAA compliance)** — AI systems must be built on infrastructure that enforces data governance and access controls from the ground up, not bolted on after the fact.
+2. **Auditability (interpretability / transparency)** — Healthcare organizations must be able to retrace and defend AI-augmented or AI-automated decisions, whether in a payer audit, a regulatory review, or a legal proceeding.
+3. **Bias and equity** — Built-in racial or demographic biases in AI models can cause direct patient harm. Customers require visibility into model behavior and the ability to intervene.
+4. **Accountability** — A human must remain responsible and accountable at each step in the AI chain. Our platform is designed to keep humans in the loop, not remove them.
