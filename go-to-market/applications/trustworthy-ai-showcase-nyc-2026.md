@@ -43,3 +43,19 @@ We are an AI enablement solution. Configured AI agents enter various points in t
 4. **Appeals Intelligent Document Processing** — AI parses documentation, translates it to structured data, and disambiguates routing
 
 "AI" — in the form of AI agents configured on our platform with guardrails — is one building block for workflow automation.
+
+---
+
+## Q: How does your solution differ from competitors' solutions or other existing alternatives?
+
+Keywell is the only solution that delivers perpetual license ownership of the deployed platform and data, combined with a subscription to ongoing advancement (i.e., Quickstarts) — rather than locking customers into today's feature set.
+
+**Status Quo (Existing EHR & SaaS Vendors)** — Waiting on vendor roadmaps means data silos persist and AI scope stays locked within each point solution, never spanning the enterprise. Keywell creates urgency with exact solutions to high-ROI pain points — acting now rather than waiting.
+
+**Homegrown Build (Databricks AgentBricks, AWS Bedrock)** — Internal builds carry high risk, long timelines, and require rebuilding infrastructure Keywell already provides. We accelerate the build and skip the hard infrastructure work.
+
+**Healthcare AI SaaS Platforms (Qualified Health, Hippocratic AI, Serelora)** — SaaS lock-in just trades one vendor dependency for another, and today's feature set will need to be reprocured as the landscape shifts. Keywell extends the existing infrastructure and lets customers own the capability.
+
+**Non-Healthcare Enterprise AI (Claude/Anthropic, Salesforce Agentforce)** — Minimal healthcare-specific governance, auditability, or support for deterministic clinical workflows. Keywell offers model-agnostic architecture, zero-trust frameworks, and works complementary to these platforms.
+
+**Healthcare AI Hybrid Platforms (101GenAI, Boost Health AI)** — Varied infrastructure sophistication and limited Databricks-native integration. Keywell provides deeper platform integration, SSO, and customer environment isolation.
