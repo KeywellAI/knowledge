@@ -64,9 +64,10 @@ Keywell is the only solution that delivers perpetual license ownership of the de
 
 ## Q: Why does AI trustworthiness matter to your customers and users?
 
-Healthcare is a high-impact, high-risk, highly-litigious industry. Trustworthiness is table stakes. The customers in our pipeline have made clear that trust is not a differentiator — it's a prerequisite. Specifically:
+Healthcare is a high-impact, high-risk, highly-litigious industry. Trustworthiness is table stakes. So far, this is why trustworthiness matters to the customers in our pipeline:
 
-1. **Protecting patient privacy (HIPAA compliance)** — AI systems must be built on infrastructure that enforces data governance and access controls from the ground up, not bolted on after the fact.
-2. **Auditability (interpretability / transparency)** — Healthcare organizations must be able to retrace and defend AI-augmented or AI-automated decisions, whether in a payer audit, a regulatory review, or a legal proceeding.
-3. **Bias and equity** — Built-in racial or demographic biases in AI models can cause direct patient harm. Customers require visibility into model behavior and the ability to intervene.
-4. **Accountability** — A human must remain responsible and accountable at each step in the AI chain. Our platform is designed to keep humans in the loop, not remove them.
+1. **Patient privacy and HIPAA compliance**
+2. **Auditability (interpretability / transparency)** — ensuring retracing and defensibility of AI-augmented or AI-automated decisions or processes
+3. **Bias and equity** — ensuring that built-in racial or demographic biases do not cause harm
+4. **Accountability** — ensuring that a human is responsible and accountable in the AI chain
+5. **Automation bias** — ensuring that humans in the loop aren't just checking boxes
