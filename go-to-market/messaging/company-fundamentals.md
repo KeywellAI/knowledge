@@ -15,8 +15,6 @@ Source: Keywell Strategic Plan (ClickUp)
 
 Use this exact wording in all contexts: website, proposals, presentations, press, and internal documents. Do not substitute synonyms or restructure the sentence.
 
-⚠️ **Note:** The ClickUp V/TO currently reads "improve lives and impact outcomes with *analytics and* AI." Confirm with Ashley which is the canonical version and update accordingly.
-
 ---
 
 ## Vision (10-Year Target)
