@@ -15,6 +15,12 @@ This is the homepage hero and the highest-level expression of what Keywell stand
 
 ---
 
+## Unique Insight
+
+Our unique insight: Our unique insight is that healthcare point solutions are built from the same underlying data, ontologies, workflow patterns, and governance controls. Once those building blocks are deployed as reusable scaffolding, every new use case becomes faster, cheaper, and safer to implement. Value compounds inside the customer's environment instead of fragmenting across systems.
+
+---
+
 ## The Message Stack
 
 *Framework: Margot Bloomstein, Message Architecture (2012) — Lead with pain. Explain the solution. Provide proof. Then differentiate.*
