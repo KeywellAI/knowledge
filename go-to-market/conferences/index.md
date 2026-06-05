@@ -1,7 +1,7 @@
 # Conference Calendar
 
 Owner: Ashley Odom
-Last updated: 2026-05-24
+Last updated: 2026-06-05
 
 Health IT, Medicaid, and human services conferences Keywell monitors for attendance, speaking, and sponsorship. This page is the general reference — typical timing, cost ranges, and CFP patterns. Specific confirmed dates for a given year live in the annual sub-pages (e.g., [2026](./2026.md)).
 
@@ -33,6 +33,7 @@ Cost ranges and CFP deadlines are approximate — verify each cycle before plann
 | Healthcare Innovation Summit | Regional | October | Houston, TX | ~$2,095 | — | Available |
 | Medicaid Managed Care Summit | National | October | Hollywood, FL | $1,495–$1,795 | — | Available |
 | UT REAL Health AI Symposium | Regional | October | Austin, TX | Low/free (UT System hosted) | — | Industry lightning talk slots |
+| NAHDO Annual Conference | National | November | Virtual | TBD | ~July | — |
 | TAHP Annual Conference | Regional | November | Houston, TX | ~$1,000 | — | Available |
 
 ---
